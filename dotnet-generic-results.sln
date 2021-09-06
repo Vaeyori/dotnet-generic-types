@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{248B9F05-352B-437F-A9B3-2F6FBC9889E4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		contributing.md = contributing.md
+		GitVersion.yml = GitVersion.yml
+		license.md = license.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{F9E047D0-0D78-47B0-908F-4A94C4B1BFF6}"
+	ProjectSection(SolutionItems) = preProject
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{EC976667-C895-4B7B-93AE-7B5650F92E56}"
+	ProjectSection(SolutionItems) = preProject
+		.docs\conventional.types.md = .docs\conventional.types.md
+		.docs\repository.structure.md = .docs\repository.structure.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".githooks", ".githooks", "{B535D80C-ECC9-4FE5-A9B8-EE1E5C037C0C}"
+	ProjectSection(SolutionItems) = preProject
+		.githooks\commit-msg = .githooks\commit-msg
+		.githooks\pre-commit = .githooks\pre-commit
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".pipelines", ".pipelines", "{9DB61DE8-8A58-4E30-B27E-501208993AC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".scripts", ".scripts", "{E4131082-57EA-47BE-A9CB-82E2D26206A9}"
+	ProjectSection(SolutionItems) = preProject
+		.pipelines\.scripts\run.mutation.tests.ps1 = .pipelines\.scripts\run.mutation.tests.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".templates", ".templates", "{EE66AB49-9F2B-4873-8438-20348A157826}"
+	ProjectSection(SolutionItems) = preProject
+		.pipelines\.templates\copy.from.container.yml = .pipelines\.templates\copy.from.container.yml
+		.pipelines\.templates\generate.version.yml = .pipelines\.templates\generate.version.yml
+		.pipelines\.templates\publish.codecoverage.results.yml = .pipelines\.templates\publish.codecoverage.results.yml
+		.pipelines\.templates\publish.mutation.test.results.yml = .pipelines\.templates\publish.mutation.test.results.yml
+		.pipelines\.templates\publish.test.results.yml = .pipelines\.templates\publish.test.results.yml
+		.pipelines\.templates\repository.tag.yml = .pipelines\.templates\repository.tag.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9E047D0-0D78-47B0-908F-4A94C4B1BFF6} = {248B9F05-352B-437F-A9B3-2F6FBC9889E4}
+		{EC976667-C895-4B7B-93AE-7B5650F92E56} = {248B9F05-352B-437F-A9B3-2F6FBC9889E4}
+		{B535D80C-ECC9-4FE5-A9B8-EE1E5C037C0C} = {248B9F05-352B-437F-A9B3-2F6FBC9889E4}
+		{9DB61DE8-8A58-4E30-B27E-501208993AC2} = {248B9F05-352B-437F-A9B3-2F6FBC9889E4}
+		{E4131082-57EA-47BE-A9CB-82E2D26206A9} = {9DB61DE8-8A58-4E30-B27E-501208993AC2}
+		{EE66AB49-9F2B-4873-8438-20348A157826} = {9DB61DE8-8A58-4E30-B27E-501208993AC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77FB4227-FB4E-4027-8EFB-46697D8FAB37}
+	EndGlobalSection
+EndGlobal
