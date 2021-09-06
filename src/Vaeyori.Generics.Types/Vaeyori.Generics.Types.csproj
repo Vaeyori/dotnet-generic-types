@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Copyright>Copyright © 2021</Copyright>
+    <Company>Vaeyori</Company>
+    <Authors>vaeyori</Authors>
+    <PackageLicenseFile>license.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/Vaeyori/dotnet-generic-results</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Vaeyori/dotnet-generic-results</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\license.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
